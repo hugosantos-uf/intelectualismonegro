@@ -4,8 +4,8 @@ const Section1_PontoDePartida = () => {
   return (
     <section
       id="secao1"
-      // A imagem de fundo é aplicada diretamente aqui
-      className="h-screen flex flex-col justify-center items-center bg-cover bg-center bg-fixed"
+      // Troque h-screen por h-dvh
+      className="h-dvh flex flex-col justify-center items-center h-auto"
     >
       {/* Camada de sobreposição para garantir a legibilidade do texto */}
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
