@@ -30,10 +30,10 @@ const Section3_Vivencia = () => {
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div className="border-l-4 border-brand-primary pl-4">
               <h5 className="font-semibold text-lg mb-2">
-                Annie Easley (EUA): "Preconceito de Origem"
+                Annie Easley (EUA): &quot;Preconceito de Origem&quot;
               </h5>
               <blockquote className="text-lg italic text-brand-text mb-3">
-                "Nada jamais foi dado às minorias ou às mulheres."
+                &quot;Nada jamais foi dado às minorias ou às mulheres.&quot;
               </blockquote>
               <p className="text-brand-secondary">
                 Sua luta ocorreu em um contexto de segregação racial explícita.
@@ -43,14 +43,14 @@ const Section3_Vivencia = () => {
             </div>
             <div className="border-l-4 border-brand-primary pl-4">
               <h5 className="font-semibold text-lg mb-2">
-                Flávia R. Silva (Brasil): "Preconceito de Marca"
+                Flávia R. Silva (Brasil): &quot;Preconceito de Marca&quot;
               </h5>
               <blockquote className="text-lg italic text-brand-text mb-3">
-                "Eu nunca me senti menor... Muitos negros ainda não enxergam as
-                oportunidades."
+                &quot;Eu nunca me senti menor... Muitos negros ainda não enxergam as
+                oportunidades.&quot;
               </blockquote>
               <p className="text-brand-secondary">
-                Sua experiência está inserida no mito da "democracia racial".
+                Sua experiência está inserida no mito da &quot;democracia racial&quot;.
                 Seu discurso de sucesso é construído sobre o individualismo,
                 transferindo a responsabilidade do plano estrutural para o
                 individual.

@@ -84,13 +84,13 @@ const Section4_Caminho = () => {
         </div>
         {/* --- Fim: Conteúdo Adicionado --- */}
 
-        <footer className="mt-20 text-center bg-brand-text text-black p-10 rounded-lg">
-          <h3 className="text-3xl font-bold mb-4">Para iniciar o debate...</h3>
-          <p className="text-2xl italic">
-            {`"`}E nós, como podemos praticar a descolonização em nosso dia a
-            dia na universidade?{`"`}
-          </p>
-        </footer>
+<footer className="mt-20 text-center bg-brand-text text-black p-10 rounded-lg">
+  <h3 className="text-3xl font-bold mb-4">Para iniciar o debate...</h3>
+  <p className="text-2xl italic">
+    &quot;E nós, como podemos praticar a descolonização em nosso dia a
+    dia na universidade?&quot;
+  </p>
+</footer>
       </div>
     </section>
   );

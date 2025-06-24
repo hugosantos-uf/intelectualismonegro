@@ -54,7 +54,7 @@ const Section2_Diagnostico = () => {
               <p className="text-brand-secondary">
                 A ausência da coleta sistemática de dados raciais é uma
                 política velada que reforça a invisibilidade na prática,
-                perpetuando o "mito da democracia racial" e impedindo o combate
+                perpetuando o &quot;mito da democracia racial&quot; e impedindo o combate
                 ao racismo estrutural na ciência.
               </p>
             </div>
@@ -67,7 +67,7 @@ const Section2_Diagnostico = () => {
           </h4>
           <p className="text-brand-secondary max-w-3xl mx-auto text-center">
             A exclusão está enraizada na própria história que a ciência conta
-            sobre si mesma. O "Teorema de Pitágoras", por exemplo, já era
+            sobre si mesma. O &quot;Teorema de Pitágoras&quot;, por exemplo, já era
             conhecido por civilizações na África (Egito) e na Babilônia muito
             antes de seu nascimento. O apagamento dessas origens é um ato de
             racismo epistêmico: a desvalorização de saberes não-europeus para
@@ -92,7 +92,7 @@ const Section2_Diagnostico = () => {
               Epistemologia Eurocêntrica
             </h3>
             <p className="text-brand-secondary">
-              Como o conhecimento europeu foi legitimado como o único "válido",
+              Como o conhecimento europeu foi legitimado como o único &quot;válido&quot;,
               tornando outras experiências invisíveis.
             </p>
           </div>
