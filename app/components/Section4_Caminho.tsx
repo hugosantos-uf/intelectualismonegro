@@ -17,20 +17,6 @@ const Section4_Caminho = () => {
           </p>
         </header>
 
-        {/* Reinventando o Currículo */}
-        <div className="text-center mb-16">
-          <h3 className="font-bold text-2xl mb-4">
-            Reinventando o Currículo: O Exemplo da Unipampa
-          </h3>
-          <p className="text-brand-secondary max-w-3xl mx-auto">
-            Em cursos de Computação, estudantes se tornam produtores de
-            conhecimento ao criar materiais sobre figuras marginalizadas. Este
-            material é usado em ações com a comunidade, criando um ciclo
-            virtuoso de decolonização do saber e capacitando os estudantes como
-            agentes de transformação.
-          </p>
-        </div>
-
         {/* Ecossistema de Resistência */}
         <div className="mb-20">
           <h3 className="font-bold text-2xl mb-4 text-center">

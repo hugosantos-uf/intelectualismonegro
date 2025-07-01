@@ -132,68 +132,6 @@ const Section2_Diagnostico = () => {
           </div>
         </div>
 
-        {/* Tabela de Dupla Penalidade */}
-        <div className="bg-white p-6 rounded-lg shadow-lg mb-16">
-          <h3 className="font-bold text-2xl mb-4 text-center">
-            A Dupla Penalidade da Citação
-          </h3>
-          <p className="text-brand-secondary mb-8 max-w-3xl mx-auto text-center">
-            A desvalorização da produção de grupos minorizados é quantificável.
-            O impacto (medido em citações) é consistentemente menor para
-            mulheres e especialmente para mulheres negras.
-          </p>
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-200">
-              <thead className="bg-gray-50">
-                <tr>
-                  <th
-                    scope="col"
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                  >
-                    Grupo
-                  </th>
-                  <th
-                    scope="col"
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                  >
-                    Fator de Impacto (Normalizado)
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="bg-white divide-y divide-gray-200">
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    Homens Brancos
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">1.28</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    Mulheres Brancas
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">1.01</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">Homens Negros</td>
-                  <td className="px-6 py-4 whitespace-nowrap">0.83</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap font-bold">
-                    Mulheres Negras
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap font-bold">
-                    0.66
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <p className="text-xs text-gray-500 mt-4 text-center">
-              Valores médios baseados em estudos de larga escala que analisam o
-              impacto de citações na ciência.
-            </p>
-          </div>
-        </div>
-
         {/* Card de Invisibilidade */}
         <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-center mb-16">
           <h3 className="font-bold text-xl mb-2 text-center">
@@ -228,7 +166,7 @@ const Section2_Diagnostico = () => {
 
         {/* Card sobre Intelectualidade Negra Feminina */}
         <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col justify-center">
-          <h3 className="font-bold text-xl mb-4 text-center">
+          <h3 className="font-bold text-2xl mb-4 text-center">
             Intelectualidade Negra Feminina
           </h3>
           <blockquote className="italic text-brand-secondary text-center mb-6 border-l-4 border-brand-primary pl-4 py-2">
@@ -237,26 +175,67 @@ const Section2_Diagnostico = () => {
             precisam, além do racismo, lutar ainda contra o sexismo, o que faz
             com que o caminho se torne mais difícil.”
           </blockquote>
-          <div className="text-base text-brand-secondary space-y-4 text-left">
-            <p>
-              Outros estudos em larga escala demonstram que existe uma
-              &quote;dupla penalidade&quote; para esses cientistas:
+          <div className="bg-white p-6 rounded-lg shadow-lg mb-16">
+            <h3 className="font-bold text-xl mb-4 text-center">
+              A Dupla Penalidade da Citação
+            </h3>
+            <p className="text-brand-secondary mb-8 max-w-3xl mx-auto text-center">
+              A desvalorização da produção de grupos minorizados é
+              quantificável. O impacto (medido em citações) é consistentemente
+              menor para mulheres e especialmente para mulheres negras.
             </p>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>
-                <strong>Desvantagem entre Tópicos:</strong> Grupos minorizados
-                tendem a pesquisar temas ligados às suas comunidades (como
-                desigualdade e saúde pública), que, por sua vez, são
-                sistematicamente menos citados e financiados pela comunidade
-                científica em geral.
-              </li>
-              <li>
-                <strong>Desvantagem dentro do Tópico:</strong> Mesmo quando
-                publicam sobre os mesmos temas que os grupos hegemônicos, seus
-                trabalhos tendem a ser menos citados, indicando um viés na
-                avaliação do mérito.
-              </li>
-            </ul>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200">
+                <thead className="bg-gray-50">
+                  <tr>
+                    <th
+                      scope="col"
+                      className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    >
+                      Grupo
+                    </th>
+                    <th
+                      scope="col"
+                      className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    >
+                      Fator de Impacto (Normalizado)
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-gray-200">
+                  <tr>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      Homens Brancos
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">1.28</td>
+                  </tr>
+                  <tr>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      Mulheres Brancas
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">1.01</td>
+                  </tr>
+                  <tr>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      Homens Negros
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">0.83</td>
+                  </tr>
+                  <tr>
+                    <td className="px-6 py-4 whitespace-nowrap font-bold">
+                      Mulheres Negras
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap font-bold">
+                      0.66
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p className="text-xs text-gray-500 mt-4 text-center">
+                Valores médios baseados em estudos de larga escala que analisam
+                o impacto de citações na ciência.
+              </p>
+            </div>
           </div>
         </div>
       </div>
