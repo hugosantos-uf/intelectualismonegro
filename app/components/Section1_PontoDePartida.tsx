@@ -14,8 +14,7 @@ const Section1_PontoDePartida = () => {
       <div className="relative z-10 p-8 max-w-4xl text-center text-white">
         {/* Título Principal */}
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-          A Intelectualidade Negra e a Produção Científica em Ciências da
-          Computação
+          A Intelectualidade Negra e a Produção Científica na Tecnologia
         </h1>
 
         {/* Subtítulo */}
