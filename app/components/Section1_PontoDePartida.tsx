@@ -4,28 +4,28 @@ const Section1_PontoDePartida = () => {
   return (
     <section
       id="secao1"
-      className="relative flex flex-col justify-center items-center min-h-dvh bg-cover bg-center bg-no-repeat p-4"
-      // Adicione o caminho para sua imagem de fundo aqui
-      style={{ backgroundImage: "url('/images/background-hero.jpg')" }}
+      // --- ALTERAÇÃO AQUI ---
+      className="relative flex flex-col justify-center items-center min-h-[900px] md:min-h-dvh bg-cover bg-center bg-no-repeat p-4"
+      // Lembre-se de adicionar o caminho para sua imagem de fundo
     >
       {/* Camada de sobreposição para garantir a legibilidade do texto */}
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
-      {/* Conteúdo Centralizado */}
-      <div className="relative z-10 max-w-4xl text-center text-white">
+      <div className="relative z-10 p-8 max-w-4xl text-center text-white">
         {/* Título Principal */}
-        <h1 className="text-4xl font-bold leading-tight md:text-6xl">
-          A Intelectualidade Negra e a Produção Científica na Tecnologia
+        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+          A Intelectualidade Negra e a Produção Científica em Ciências da
+          Computação
         </h1>
 
         {/* Subtítulo */}
-        <p className="mt-4 mb-12 text-lg font-sans md:text-xl">
+        <p className="text-lg md:text-xl mt-4 mb-12 font-sans">
           Um olhar decolonial sobre a arquitetura da exclusão e as práticas de
           resistência na academia.
         </p>
 
         {/* Citação em destaque */}
-        <blockquote className="border-l-4 border-white pl-4 md:pl-6 text-xl md:text-2xl italic">
+        <blockquote className="text-xl md:text-2xl italic border-l-4 border-white pl-4 md:pl-6">
           <p className="uppercase">
             &quot;Se examinarmos criticamente o papel tradicional da
             universidade na busca da verdade e na partilha de conhecimento e

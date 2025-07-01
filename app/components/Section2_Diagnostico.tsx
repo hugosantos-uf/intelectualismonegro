@@ -19,18 +19,78 @@ const Section2_Diagnostico = () => {
           </p>
         </header>
 
-        {/* Racismo Epistêmico */}
-        <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-brand-primary mb-16">
+        {/* --- CONTEÚDO SUBSTITUÍDO AQUI --- */}
+        <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-brand-primary mb-16 text-left">
           <h3 className="font-bold text-2xl mb-4 text-center">
             Racismo Epistêmico: A História que Não é Contada
           </h3>
-          <p className="text-brand-secondary max-w-3xl mx-auto text-center">
-            A exclusão está enraizada na própria história que a ciência conta
-            sobre si mesma. O &quot;Teorema de Pitágoras&quot;, por exemplo, já
-            era conhecido por civilizações na África (Egito) e na Babilônia
-            muito antes de seu nascimento. O apagamento dessas origens é um ato
-            de racismo epistêmico: a desvalorização de saberes não-europeus para
-            manter uma hierarquia racial do conhecimento.
+          <p className="text-brand-secondary mb-6">
+            Você já se perguntou por que os grandes gênios da matemática e da
+            ciência são quase sempre retratados como homens brancos e europeus?
+            A resposta está em um processo de apagamento histórico e intelectual
+            conhecido como racismo epistêmico.
+          </p>
+
+          <img
+            src="/img.png"
+            alt="Papiro de Ahmes"
+            className="w-full rounded-lg shadow-md my-8 object-contain h-auto md:h-64"
+          />
+
+          <h4 className="font-bold text-xl mt-8 mb-4 text-brand-text">
+            O Papiro de Ahmes: Um Exemplo de Triplo Apagamento
+          </h4>
+          <p className="text-brand-secondary mb-6">
+            Um dos casos mais emblemáticos dessa apropriação histórica é o do
+            Papiro de Ahmes, um dos documentos matemáticos mais importantes da
+            antiguidade.
+          </p>
+          <ul className="list-disc pl-5 space-y-3 text-brand-secondary mb-6">
+            <li>
+              <strong className="text-brand-text">
+                Apagamento da Autoria:
+              </strong>{" "}
+              Escrito por volta de 1650 a.C. pelo escriba egípcio (africano)
+              Ahmes, o papiro detalha soluções para 85 problemas complexos de
+              aritmética e geometria. Hoje, porém, é mais conhecido como
+              &ldquo;Papiro de Rhind&ldquo;, em homenagem ao escocês que o
+              adquiriu no Egito em 1858. O nome do autor foi trocado pelo do
+              colonizador.
+            </li>
+            <li>
+              <strong className="text-brand-text">
+                Apagamento do Conhecimento:
+              </strong>{" "}
+              A existência do papiro prova que os africanos dominavam a
+              matemática avançada milênios antes dos gregos. Ignorar isso é
+              negar a origem africana do conhecimento.
+            </li>
+            <li>
+              <strong className="text-brand-text">
+                Apagamento do Patrimônio:
+              </strong>{" "}
+              O artefato físico foi retirado do Egito e hoje pertence ao acervo
+              do Museu Britânico, na Inglaterra, longe de seu povo de origem.
+            </li>
+          </ul>
+          <p className="text-brand-secondary mb-8">
+            Este não é um caso isolado. O fato de que o chamado &ldquo;Teorema
+            de Pitágoras&ldquo; já era conhecido e utilizado na África e na
+            Babilônia mais de mil anos antes do nascimento de Pitágoras confirma
+            um padrão. O objetivo é claro: manter uma suposta supremacia racial
+            na produção do conhecimento.
+          </p>
+
+          <h4 className="font-bold text-xl mt-6 mb-4 text-brand-text">
+            Racismo Estrutural: A Raiz do Problema
+          </h4>
+          <p className="text-brand-secondary">
+            Esse epistemicídio na ciência é um sintoma de algo muito maior: o
+            racismo estrutural. Como define o jurista Silvio Almeida, o racismo
+            estrutural não se limita a atitudes individuais. Ele está
+            &ldquo;impregnado na estrutura constitutiva da sociedade&ldquo;,
+            normalizando práticas, hábitos e discursos que reproduzem a
+            desigualdade de forma sistemática.
           </p>
         </div>
 
@@ -38,6 +98,8 @@ const Section2_Diagnostico = () => {
         <div className="mb-16">
           <Timeline />
         </div>
+
+        {/* (O restante do código da seção continua aqui, sem alterações) */}
 
         {/* Cards de Conceitos */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 font-sans mb-16">
@@ -175,7 +237,6 @@ const Section2_Diagnostico = () => {
             precisam, além do racismo, lutar ainda contra o sexismo, o que faz
             com que o caminho se torne mais difícil.”
           </blockquote>
-          {/* --- ALTERAÇÃO AQUI --- */}
           <div className="text-base text-brand-secondary space-y-4 text-left">
             <p>
               Outros estudos em larga escala demonstram que existe uma
