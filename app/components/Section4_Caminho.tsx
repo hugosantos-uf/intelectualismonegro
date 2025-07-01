@@ -17,6 +17,20 @@ const Section4_Caminho = () => {
           </p>
         </header>
 
+        {/* Reinventando o Currículo */}
+        <div className="text-center mb-16">
+          <h3 className="font-bold text-2xl mb-4">
+            Reinventando o Currículo: O Exemplo da Unipampa
+          </h3>
+          <p className="text-brand-secondary max-w-3xl mx-auto">
+            Em cursos de Computação, estudantes se tornam produtores de
+            conhecimento ao criar materiais sobre figuras marginalizadas. Este
+            material é usado em ações com a comunidade, criando um ciclo
+            virtuoso de decolonização do saber e capacitando os estudantes como
+            agentes de transformação.
+          </p>
+        </div>
+
         {/* Ecossistema de Resistência */}
         <div className="mb-20">
           <h3 className="font-bold text-2xl mb-4 text-center">
@@ -28,29 +42,49 @@ const Section4_Caminho = () => {
             deixadas pelas instituições tradicionais.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 font-sans">
-            {/* Cards do ecossistema */}
-            <div className="bg-white p-6 shadow-md rounded-lg flex flex-col">
+            {/* Cards do ecossistema com links */}
+            <a
+              href="https://www.pretalab.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white p-6 shadow-md rounded-lg flex flex-col hover:shadow-lg transition-shadow"
+            >
               <h4 className="font-semibold text-lg mb-2">PretaLab</h4>
               <p className="text-brand-secondary text-sm flex-grow">
                 Oferece qualificação técnica gratuita em tecnologia, com foco
                 especial em mulheres negras e indígenas.
               </p>
-            </div>
-            <div className="bg-white p-6 shadow-md rounded-lg flex flex-col">
+            </a>
+            <a
+              href="https://afropython.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white p-6 shadow-md rounded-lg flex flex-col hover:shadow-lg transition-shadow"
+            >
               <h4 className="font-semibold text-lg mb-2">AfroPython</h4>
               <p className="text-brand-secondary text-sm flex-grow">
                 Leva o ensino de programação diretamente para as comunidades,
                 criando espaços de aprendizado seguros e acessíveis.
               </p>
-            </div>
-            <div className="bg-white p-6 shadow-md rounded-lg flex flex-col">
+            </a>
+            <a
+              href="https://baoba.org.br/blackstem/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white p-6 shadow-md rounded-lg flex flex-col hover:shadow-lg transition-shadow"
+            >
               <h4 className="font-semibold text-lg mb-2">Black STEM</h4>
               <p className="text-brand-secondary text-sm flex-grow">
                 Fundo que oferece bolsas para que estudantes negros cursem
                 graduação em áreas STEM no exterior.
               </p>
-            </div>
-            <div className="bg-white p-6 shadow-md rounded-lg flex flex-col">
+            </a>
+            <a
+              href="https://www.thoughtworks.com/content/dam/thoughtworks/documents/guide/tw_guide_enegrecer_narrativas.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white p-6 shadow-md rounded-lg flex flex-col hover:shadow-lg transition-shadow"
+            >
               <h4 className="font-semibold text-lg mb-2">
                 Enegrecer a Tecnologia
               </h4>
@@ -58,15 +92,19 @@ const Section4_Caminho = () => {
                 Programa que foca em construir pontes e redes de conexão entre
                 profissionais negros e empresas de tecnologia.
               </p>
-            </div>
-            <div className="bg-white p-6 shadow-md rounded-lg flex flex-col">
+            </a>
+            <a
+              href="https://reprograma.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white p-6 shadow-md rounded-lg flex flex-col hover:shadow-lg transition-shadow"
+            >
               <h4 className="font-semibold text-lg mb-2">{"{reprograma}"}</h4>
               <p className="text-brand-secondary text-sm flex-grow">
                 Iniciativa que oferece qualificação gratuita em programação para
                 mulheres, com alta inclusão de mulheres negras.
               </p>
-            </div>
-            {/* Você pode adicionar um sexto card aqui para preencher a grade em telas maiores, se desejar */}
+            </a>
           </div>
         </div>
 

@@ -175,6 +175,16 @@ const Section2_Diagnostico = () => {
             precisam, além do racismo, lutar ainda contra o sexismo, o que faz
             com que o caminho se torne mais difícil.”
           </blockquote>
+          <p className="text-brand-secondary mb-8 max-w-3xl mx-auto text-center">
+            Dentro da tecnologia, constata-se que nas publicações em periódicos,
+            no acervo de dissertações e teses encontradas no Catálogo da CAPES,
+            e nos grupos de trabalhos (GTs) da Associação Nacional de
+            Pós-Graduação e Pesquisa em Educação (Anped), entre outros, que o
+            tema mulheres negras na Computação ainda é discutido em número
+            inexpressivo. No Google Trends2 sequer há dados sobre mulheres
+            negras em português ou em inglês na computação e tecnologias, bem
+            como poucos registros para mulheres em geral
+          </p>
           <div className="bg-white p-6 rounded-lg shadow-lg mb-16">
             <h3 className="font-bold text-xl mb-4 text-center">
               A Dupla Penalidade da Citação
